@@ -47,7 +47,7 @@
  * Retire da apresentação das opções de voto a opção "0 -> Encerrar a votação";
  * 
  * 4. Utilize arredondamento para exibir os percentuais de votos com no máximo
- * duas casas decimais;
+ * duas casas decimais; 
  * 
 */
 
@@ -192,7 +192,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2628; 
+ * @POSICAO-CURSOR = 2234; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
