@@ -1,6 +1,6 @@
 /*
  * Simulação de uma urna eletrônica
- * Desafio 1
+ * Desafio 0
 */
 
 programa
