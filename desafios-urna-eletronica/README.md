@@ -2,7 +2,7 @@
 
 #### Autor: João Roccella
 
-### Conceitos: fluxograma, variáveis, leia, escreva, limpa, escolha-caso, faca-enquanto, se, inicialização, operadores lógicos, precedência
+#### Conceitos: fluxograma, variáveis, leia, escreva, limpa, escolha-caso, faca-enquanto, se, inicialização, operadores lógicos, precedência
 
 ## Enunciado (desafio 0):
 
