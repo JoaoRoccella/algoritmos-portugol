@@ -8,7 +8,7 @@
 
 Crie um programa que simule o funcionamento de uma urna eletrônica (utilizando uma estrutura de repetição para permitir múltiplas votações). 
 
-O programa deve apresentar as seguintes opções de voto (utilizando a estrutura escolha-caso):
+1. O programa deve apresentar as seguintes opções de voto (utilizando a estrutura escolha-caso):
 
 ```
 1 -> Candidato 1
@@ -19,17 +19,17 @@ O programa deve apresentar as seguintes opções de voto (utilizando a estrutura
 0 -> Encerrar a votação
 ```
   
-O programa deve solicitar ao usuário que digite o número do seu voto e armazenar a opção de voto em uma variável. 
+2. O programa deve solicitar ao usuário que digite o número do seu voto e armazenar a opção de voto em uma variável. 
 
-Se o usuário escolher uma das opções de candidato, o programa deve incrementar o contador de votos do respectivo candidato. 
+3. Se o usuário escolher uma das opções de candidato, o programa deve incrementar o contador de votos do respectivo candidato. 
 
-Se o usuário escolher a opção voto em branco, o programa deve incrementar o contador de votos em branco. 
+4. Se o usuário escolher a opção voto em branco, o programa deve incrementar o contador de votos em branco. 
 
-Se o usuário escolher a opção voto nulo, o programa deve incrementar o contador de votos nulos. 
+5. Se o usuário escolher a opção voto nulo, o programa deve incrementar o contador de votos nulos. 
 
-Se o usuário escolher a opção encerrar a votação, o programa deve sair do loop e exibir o resultado final da votação (quantidade e percentual de votos de cada candidato, votos em branco, votos nulos e candidato ganhador, com o seu total de votos e percentual acrescidos os votos em branco).
+6. Se o usuário escolher a opção encerrar a votação, o programa deve sair do loop e exibir o resultado final da votação (quantidade e percentual de votos de cada candidato, votos em branco, votos nulos e candidato ganhador, com o seu total de votos e percentual acrescidos os votos em branco).
   
-O programa deve continuar a permitir a votação até que o usuário escolha a opção para encerrar a votação.
+7. O programa deve continuar a permitir a votação até que o usuário escolha a opção para encerrar a votação.
 
 ---------------------------------------------------------------------------
 
