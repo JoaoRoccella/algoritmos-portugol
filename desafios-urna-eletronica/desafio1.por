@@ -85,6 +85,7 @@ programa
 			
 			se (opcaoInvalida) {
 				escreva("** Opção inválida! \n\n")
+				opcaoInvalida = falso
 			}
 			
 			escreva("** Opções de voto: \n\n")
@@ -190,7 +191,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3409; 
+ * @POSICAO-CURSOR = 2588; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
