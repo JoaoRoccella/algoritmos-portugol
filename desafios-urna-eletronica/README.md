@@ -78,7 +78,7 @@ com essa função.
 
 8. Adicione o som da urna eletrônica para confirmar cada voto válido;
 
-**Dica:** procure uma biblioteca no portugol que possa te ajudar a executar essa função. Baixe o audio de confirmação da urna eletrônica brasileira em mp3 no repositório: https://github.com/JoaoRoccella/desafios-portugol/tree/main/audio
+**Dica:** procure uma biblioteca no portugol que possa te ajudar a executar essa função. Baixe o audio de confirmação da urna eletrônica brasileira em mp3 neste mesmo repositório;
 
 ----------------------------------------------------------------------------
 
