@@ -60,6 +60,7 @@ com essa função.
 ----------------------------------------------------------------------------
 
 5. Caso seja digitada uma opção inválida de voto, o programa deve informar que a opção é inválida e apresentar novamente as opções válidas de voto, sem contabilizar o voto inválido;
+
 **Dica:** caso o voto não seja nenhuma das opções tratadas, defina uma condição nesse caso para que o laço seja reapresentado sem computar o voto inválido.
 
 ----------------------------------------------------------------------------
