@@ -41,7 +41,13 @@
 
 programa
 {
-	inclua biblioteca Tipos --> tp //não é obrigatório para o desafio
+	/* 
+	 *  A inclusão da biblioteca "Tipos" não é obrigatória para o desafio,
+	 *  mas fará a conversão do valor inteiro dos contadores para que o 
+	 *  cálculo dos percentuais (reais) seja feito sem que os contadores
+	 *  precisem ser declarados como tipo real.
+	*/
+	inclua biblioteca Tipos --> tp
 	
 	funcao inicio()
 	{
@@ -126,12 +132,14 @@ programa
 			
 			nomeGanhador = nomeCandidato1
 			votosTotaisGanhador = votosCandidato1 + votosBranco
-		} senao 
+		} 
+		
 		se (votosCandidato2 > votosCandidato1 e votosCandidato2 > votosCandidato3) {
 			
 			nomeGanhador = nomeCandidato2
 			votosTotaisGanhador = votosCandidato2 + votosBranco
-		} senao
+		} 
+		
 		se (votosCandidato3 > votosCandidato1 e votosCandidato3 > votosCandidato2) {
 			
 			nomeGanhador = nomeCandidato3
@@ -169,11 +177,11 @@ programa
 			escreva("** Nenhum voto registrado\n")
 			
 		}
+
 		
-		
-			escreva("** Ganhador nesta urna\n\n")
-			escreva(nomeGanhador, " com ", votosTotaisGanhador, " votos (", 
-				percentualGanhador, "%) somados os votos em branco\n")
+		escreva("** Ganhador nesta urna\n\n")
+		escreva(nomeGanhador, " com ", votosTotaisGanhador, " votos (", 
+			percentualGanhador, "%) somados os votos em branco\n")
 		
 	}
 }
@@ -182,7 +190,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1598; 
+ * @POSICAO-CURSOR = 5339; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
