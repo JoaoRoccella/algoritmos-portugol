@@ -51,11 +51,9 @@ O programa deve continuar a permitir a votação até que o usuário escolha a o
 
 ----------------------------------------------------------------------------
 
-4. Utilize arredondamento para exibir os percentuais de votos com no máximo
-duas casas decimais; 
+4. Utilize arredondamento para exibir os percentuais de votos com no máximo duas casas decimais; 
 
-**Dica:** procure na documentação do portugol uma biblioteca que possa te ajudar
-com essa função.
+**Dica:** procure na documentação do portugol uma biblioteca que possa te ajudar com essa função.
 
 ----------------------------------------------------------------------------
 
