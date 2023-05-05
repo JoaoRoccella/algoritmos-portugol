@@ -127,7 +127,7 @@ programa
 		} enquanto (codigoVoto != 0)
 
 		
-		// determinar o ganhador
+		// determinar o ganhador, sem situação de empate
 		se (votosCandidato1 > votosCandidato2 e votosCandidato1 > votosCandidato3) {
 			
 			nomeGanhador = nomeCandidato1
@@ -190,7 +190,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 5339; 
+ * @POSICAO-CURSOR = 3409; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
