@@ -15,7 +15,7 @@ programa
 	
 	funcao inicio()
 	{
-			inteiro 
+		inteiro 
 			codigoVoto,
 			votosTotais = 0, 
 			votosCandidato1 = 0, 
