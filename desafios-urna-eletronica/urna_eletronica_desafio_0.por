@@ -111,7 +111,6 @@ programa
 			votosTotaisGanhador = votosCandidato3 + votosBranco
 		} 
 		
-		
 		limpa()
 		escreva("** Resultado da apuração desta urna\n\n")
 		
