@@ -60,53 +60,61 @@ programa
 			escreva("8 | Voto nulo \n")
 			escreva("0 | Encerrar a votação \n\n")
 	
-			escreva("Digite agora o código do seu voto: ")
+			escreva(">> Digite agora o código do seu voto: ")
 			leia(codigoVoto)
 	
 			escolha(codigoVoto) {
+				
 				caso 0:
 					pare
+				
 				caso 1:
 					votosCandidato1++
 					votosTotais++
 					pare
+				
 				caso 2:
 					votosCandidato2++
 					votosTotais++
 					pare
+				
 				caso 3:
 					votosCandidato3++
 					votosTotais++
 					pare
+				
 				caso 5:
 					votosBranco++
 					votosTotais++
 					pare
+				
 				caso 8:
 					votosNulo++
 					votosTotais++
 					pare
+				
 				caso contrario:
 					opcaoInvalida = verdadeiro
 			}
+			
 		} enquanto (codigoVoto != 0)
 
 		
 		// determinar o ganhador, sem situação de empate
-		se (votosCandidato1 > votosCandidato2 e votosCandidato1 > votosCandidato3) {
-			
+		se (votosCandidato1 > votosCandidato2 e votosCandidato1 > votosCandidato3) 
+		{	
 			nomeGanhador = nomeCandidato1
 			votosTotaisGanhador = votosCandidato1 + votosBranco
 		} 
 		
-		se (votosCandidato2 > votosCandidato1 e votosCandidato2 > votosCandidato3) {
-			
+		se (votosCandidato2 > votosCandidato1 e votosCandidato2 > votosCandidato3) 
+		{	
 			nomeGanhador = nomeCandidato2
 			votosTotaisGanhador = votosCandidato2 + votosBranco
 		} 
 		
-		se (votosCandidato3 > votosCandidato1 e votosCandidato3 > votosCandidato2) {
-			
+		se (votosCandidato3 > votosCandidato1 e votosCandidato3 > votosCandidato2) 
+		{
 			nomeGanhador = nomeCandidato3
 			votosTotaisGanhador = votosCandidato3 + votosBranco
 		} 
@@ -154,7 +162,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2588; 
+ * @POSICAO-CURSOR = 2193; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
