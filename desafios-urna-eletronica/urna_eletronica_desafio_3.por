@@ -81,6 +81,11 @@ programa
 			escreva("3 | ", nomeCandidato3, "\n")
 			escreva("5 | Voto em branco \n")
 			escreva("8 | Voto nulo \n\n")
+			/*
+			 * Removendo a opção de 'encerrar votação' para que essa
+			 * opção permaneça oculta e somente acessível atravé da
+			 * digitação do PIN pelo mesário;
+			*/
 	
 			escreva("Digite agora o código do seu voto: ")
 			leia(codigoVoto)
@@ -200,7 +205,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2680; 
+ * @POSICAO-CURSOR = 2152; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
