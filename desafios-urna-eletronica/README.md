@@ -1,6 +1,6 @@
 # Simulação de uma urna eletrônica
 
-#### Autor: João Roccella
+#### Autor: [João Roccella](https://github.com/JoaoRoccella)
 
 #### Conceitos: fluxograma, variáveis, leia, escreva, limpa, escolha-caso, faca-enquanto, se/senao-se/senao, inicialização, operadores lógicos, precedência
 
