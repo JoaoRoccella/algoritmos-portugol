@@ -111,7 +111,13 @@ programa
 					votosNulo++
 					votosTotais++
 					pare
-				
+
+				/*
+				 * O 'caso 0:' já poderia ser entendido como um 'PIN' sendo
+				 * digitado. A variável codigoVoto é do tipo inteiro e aceita
+				 * um 'PIN' com 6 dígitos. por esse motivo, basta substituir
+				 * o caso para verificar a digitacao do novo PIN
+				*/
 				caso 123456:
 					limpa()
 					escreva(">> Deseja REALMENTE encerrar a votação?\n")
@@ -194,7 +200,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1988; 
+ * @POSICAO-CURSOR = 2680; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
