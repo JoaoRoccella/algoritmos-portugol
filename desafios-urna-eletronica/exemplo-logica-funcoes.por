@@ -24,12 +24,12 @@ programa
 	funcao vazio somConfirmacao(inteiro tempoInformado) 
 	{
 		
-		//inteiro tempoDeEsperaSom = tempoInformado * 1000
+		inteiro tempoDeEsperaSom = tempoInformado * 1000
 		inteiro somDeConfirmacao = Sons.carregar_som("audio/confirma-urna.mp3")
 
 		Sons.reproduzir_som(somDeConfirmacao, falso)
 
-		Util.aguarde(tempoInformado * 1000)
+		Util.aguarde(tempoDeEsperaSom)
 	}
 
 	
@@ -47,9 +47,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 305; 
- * @PONTOS-DE-PARADA = 32, 18, 19, 10, 11, 28, 14, 30, 15;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @POSICAO-CURSOR = 58; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = {tempoInformado, 24, 37, 14}-{somDeConfirmacao, 28, 10, 16};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
