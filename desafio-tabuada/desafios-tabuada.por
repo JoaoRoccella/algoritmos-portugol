@@ -15,6 +15,11 @@
  * a mensagem "Este número é par" sempre que o resultado for par, 
  * ou seja, divisível por 2 (resto da divisão por 2 é igual a 0);
  * 
+ * Desafio 3
+ * 
+ * Especialize os desafios 1 e 2 utilizando funções, uma para cada
+ * operação: tabuada() e numeroPar(). lembre-se de que uma função
+ * pode chamar a outra, passando parâmetros e obtendo retornos.
  * 
  */
 
@@ -31,7 +36,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 572; 
+ * @POSICAO-CURSOR = 786; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
