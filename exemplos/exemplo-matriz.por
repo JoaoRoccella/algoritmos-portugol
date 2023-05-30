@@ -5,16 +5,23 @@ programa {
 		// Cada elemento da matriz possui dois índices
 		// de referência ("i" e "j")
 		
-		inteiro matriz[2][3] = { {20,30,40}, {200,300,400} }
+		inteiro matriz[2][3] = { {100,101,102}, {210,211,212} }
 
 		// i = linha; j = coluna
 		// i0,j0  i0,j1  i0,j2 
-		//  20     30     40
-		//  200    300    400
+		//  100    101    102
+		//  210    211    212
 		// i1,j0  i1,j1  i1,j2
 		
-		escreva(matriz[0][1])
-		
+		para (inteiro i = 0; i <= 1; i ++) {
+
+			para (inteiro j = 0; j <= 2; j ++) {
+
+				escreva(matriz[i][j], "  ")
+				
+			}
+			escreva("\n\n")		
+		}	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +29,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 328; 
+ * @POSICAO-CURSOR = 305; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
